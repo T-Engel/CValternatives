@@ -9,9 +9,15 @@
 
 The goal of CValternatives is calculate stuff.
 
+## Installation
+
+The package can be installed from github using:
+
+`devtools::install_github("T-Engel/CValternatives")`
+
 ## Example
 
-Let’s calculate the PV of a variable Z:
+Let’s calculate the Proportional Variability index (PV) of a variable Z:
 
 ``` r
 library(CValternatives)
