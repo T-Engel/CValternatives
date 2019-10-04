@@ -17,23 +17,21 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of CValternatives is to ...
-
-## Installation
-
-You can install the released version of CValternatives from [CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("CValternatives")
-```
+The goal of CValternatives is calculate stuff.
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Let's calculate the PV of a variable Z:
 
 ```{r example}
 library(CValternatives)
-## basic example code
+Z = c(2,3,4,5,6)
+PV(Z)
 ```
 
+And now the Consecutive disparity index (D) of the same variable:
+
+```{r}
+D(Z)
+```
 

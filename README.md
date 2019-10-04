@@ -7,20 +7,11 @@
 
 <!-- badges: end -->
 
-The goal of CValternatives is to …
-
-## Installation
-
-You can install the released version of CValternatives from
-[CRAN](https://CRAN.R-project.org) with:
-
-``` r
-install.packages("CValternatives")
-```
+The goal of CValternatives is calculate stuff.
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+Let’s calculate the PV of a variable Z:
 
 ``` r
 library(CValternatives)
@@ -29,5 +20,14 @@ library(CValternatives)
 #> The following object is masked from 'package:stats':
 #> 
 #>     D
-## basic example code
+Z = c(2,3,4,5,6)
+PV(Z)
+#> [1] 0.395
+```
+
+And now the Consecutive disparity index (D) of the same variable:
+
+``` r
+D(Z)
+#> [1] 0.2746531
 ```
